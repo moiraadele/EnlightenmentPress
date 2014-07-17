@@ -1,5 +1,8 @@
 body {
-	background-color: #white;
+	background-image: url("http://img.wallpaperstock.net:81/snowy-mountain-starry-sky-wallpapers_34676_2560x1600.jpg");
+	height: 1000px;
+	width: 1000px;
+	margin: auto;
 }
 h1 {
 	font-family: TimeBurner;

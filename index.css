@@ -4,18 +4,19 @@ body {
 	width: 1000px;
 	margin: auto;
 }
-h1 {
+#header h1 {
 	font-family: TimeBurner;
 	text-align: center;
 	box-shadow: 4px;
 	color: white;
 }
-p {
+.content p {
 	font-family: Avenir;
 	color: white;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 20px;
+	text-align: center;
 }
 #header{
 	height: 70px;
@@ -30,9 +31,10 @@ p {
 }
 .content{
 	width: 700px;
-	height: 100px;
+	height: 900px;
 	margin: auto;
 	margin-top: 80px;
+	position: relative;
 }
 #footer{
 	height: 70px;
@@ -43,7 +45,12 @@ p {
 	position: relative;
 	clear:both;
 }
+#footer p{
+	color: white;
+	font-family: Avenir;
+	text-align: center;
 
+}
 
 
 
